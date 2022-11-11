@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+    color: rgb(0, 0, 0);
+    user-select: none;
+}
+
+.parent {
+    margin: auto;
+    position: relative;
+    vertical-align: auto;
+    width: auto;
+    height: 377px;
+    background-color: #000000;
+    padding: 21px;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    margin: 25%;
+    box-shadow: 0px 0px 55px 34px rgb(255, 255, 255);
+    border-radius: 55px;
+    background: repeating-radial-gradient(13px, white, black);
+    font-size: 22px;
+}
+
+.child {
+    background: repeating-radial-gradient(21px, black, white);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 30%;
+    margin: 3% auto;
+    transition-duration: 3s;
+    border-radius: 34px;
+    line-height: 110px;
+}
+
+.child:hover {
+    background-color: black;
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    box-shadow: 0px 0px 55px 34px rgb(255, 255, 255);
+    color: white;
+    opacity: 55%;
+    font-size: 55px;
+}
+
+
+.child2 {
+    background: repeating-radial-gradient(21px, black, white);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 30%;
+    margin: 3% auto;
+    transition-duration: 3s;
+    border-radius: 34px;
+    line-height: 110px;
+
+}
+
+.child2:hover {
+    background-color: black;
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    box-shadow: 0px 0px 55px 34px rgb(255, 255, 255);
+    color: white;
+    opacity: 55%;
+    font-size: 55px;
+}
+
+.child3 {
+    background: repeating-radial-gradient(21px, black, white);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 30%;
+    margin: 3% auto;
+    transition-duration: 3s;
+    border-radius: 34px;
+    line-height: 110px;
+    
+}
+
+.child3:hover {
+    background-color: black;
+    width: 30%;
+    height: 30%;
+    border-radius: 100%;
+    box-shadow: 0px 0px 55px 34px rgb(255, 255, 255);
+    color: white;
+    opacity: 55%;
+    font-size: 55px;
+}
